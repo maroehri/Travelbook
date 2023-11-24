@@ -1,11 +1,12 @@
 CXX = g++
 CXXFLAGS = -std=c++17 -Wall
-LDFLAGS = 
+LDFLAGS =
 OBJ_DIR = obj
 SRC_DIR = src
 INC_DIR = include
 TEST_DIR = test
 BIN_DIR = bin
+
 
 # The files for your application, excluding the main.cpp
 APP_SOURCES = $(filter-out $(SRC_DIR)/main.cpp, $(wildcard $(SRC_DIR)/*.cpp))
